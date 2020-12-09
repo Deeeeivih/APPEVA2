@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#303F9F"
+        android:background="@drawable/casillero"/>
+
+    <TextView
+        android:id="@+id/item_denuncia_circle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_item"
+        android:fontFamily="@font/nerko"
+        android:text="D"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        />
+    <TextView
+        android:id="@+id/item_circle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/nerko"
+        android:text="D"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        />
+    <TextView
+    android:id="@+id/item_denuncia_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/nerko"
+    android:text="Denuncia #1"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:textSize="16sp"
+    android:layout_marginTop="10dp"
+    android:layout_toRightOf="@+id/item_denuncia_circle"
+
+    />
+
+
+    <TextView
+        android:id="@+id/item_denuncia_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nerko"
+        android:textColor="#fff"
+        android:text="Descripcion de Denuncia"
+        android:layout_below="@+id/item_denuncia_title"
+        android:layout_toRightOf="@+id/item_denuncia_circle"
+        />
+
+
+
+
+</RelativeLayout>

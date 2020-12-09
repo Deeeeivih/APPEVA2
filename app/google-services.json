@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845975784414",
+    "firebase_url": "https://appeva2.firebaseio.com",
+    "project_id": "appeva2",
+    "storage_bucket": "appeva2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845975784414:android:67e18264d4d9ba257c6b4f",
+        "android_client_info": {
+          "package_name": "com.example.appeva2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845975784414-2ukvo6a4v5glr0t2q0n8depf70o4ima5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8iIRqO5QmnVHnfUIzwhquJP-p2TX2rNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845975784414-2ukvo6a4v5glr0t2q0n8depf70o4ima5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

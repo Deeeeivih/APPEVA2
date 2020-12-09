@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.AcercaDeActivity">
+
+    <ImageView
+        android:src="@drawable/fondo"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/pipe"
+        android:src="@drawable/pipe"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/simon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/pipe"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:src="@drawable/simon" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/david"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/simon"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:src="@drawable/david" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felipe Castro"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/pipe"
+        android:fontFamily="@font/nerko"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analista Programador"
+        android:textSize="15dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@id/pipe"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simon Diaz"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/pipe"
+        android:fontFamily="@font/nerko"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analista Programador"
+        android:textSize="15dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="175dp"
+        android:layout_toRightOf="@id/pipe"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="David Diaz"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="270dp"
+        android:layout_toRightOf="@id/pipe"
+        android:fontFamily="@font/nerko"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analista Programador"
+        android:textSize="15dp"
+        android:textColor="#303F9F"
+        android:layout_marginTop="295dp"
+        android:layout_toRightOf="@id/pipe"/>
+
+</RelativeLayout>

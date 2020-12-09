@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondo"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/logito"
+        android:layout_above="@id/txtemail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Denuncias Ciudadanas"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/bangers"
+        android:layout_above="@id/txtemail"/>
+
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtpass"
+        android:layout_margin="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="64dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:fontFamily="@font/bangers"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColor="#0863AC"
+        android:textColorHint="#0863AC" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/bangers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_above="@id/txtbt"
+        android:textColorHint="#0863AC"
+        android:drawableLeft="@drawable/ic_pass_foreground"
+        android:textColor="#0863AC"/>
+
+    <Button
+        android:id="@+id/txtbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/nerko"
+        android:text="@string/bt_name"
+        android:onClick="LoginRegister"
+        android:layout_gravity="center"
+        android:background="@drawable/redondo"
+        android:textColor="#0863AC"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtbt"
+        android:text="No tienes una cuenta?"
+        android:fontFamily="@font/nerko"
+        android:onClick="Register"
+        android:gravity="center"
+        android:textColor="#0863AC"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AcercaDe"
+        android:text="Acerca De"
+        android:textSize="20dp"
+        android:textColor="#303F9F"
+        android:fontFamily="@font/nerko"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"/>
+    
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

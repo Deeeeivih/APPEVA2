@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".ui.main.DenunciarFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haga su denuncia"
+        android:textColor="#0863AC"
+        android:fontFamily="@font/nerko"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/txt_denuncia_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:hint="Titulo de la denuncia"
+        android:layout_margin="10dp"
+        android:textColor="#0863AC"
+        />
+
+    <EditText
+        android:id="@+id/txt_denuncia_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:hint="Direccion del suceso"
+        android:layout_margin="10dp"
+        android:textColor="#0863AC"
+        />
+
+    <Button
+        android:id="@+id/btn_denuncia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/redondo"
+        android:text="Create"
+        android:fontFamily="@font/bangers"
+        android:textColor="#0863AC"
+        />
+
+
+
+</LinearLayout>
